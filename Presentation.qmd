@@ -1,0 +1,41 @@
+---
+title: "Leguminosae: states and fates of the Brazilian flora conservation"
+author: 
+  - L.S.B. Jordão
+  - Amorim, E.T.
+  - Aragão, L.A.
+  - Bicalho, M.B.
+  - Calfo, V.
+  - Ferreira, G.C.
+  - Gomes, M.
+  - Mello, P.H.A.
+  - Wimmer, F.C.
+  - Fernandez, E.
+  - et al.
+lang: pt
+format:
+  pdf:
+    toc: false
+    number-sections: true
+    colorlinks: true
+abstract: "Brazil is home to a significant proportion of Leguminosae species, comprising 13.5% of the global total. Furthermore, 51% of these species are endemic to the country, representing 7% of the worldwide Leguminosae diversity. Of the 3,068 species in Brazil, 1,024 (33%) underwent conservation assessments, carried out collaboratively with numerous specialists partnered with CNCFlora/JBRJ. Among the assessed species, 73% were not deemed threatened, including 56% classified as Least Concern (LC), 12% as Data Deficient (DD), and 5% as Near Threatened (NT). However, 277 (26%) are facing the risk of extinction, with 154 (5%) categorized as Endangered (EN), 81 (2.6%) as Vulnerable (VU), and 42 (1.3%) as Critically Endangered (CR). Most of threatened species belong to the genus *Mimosa* (23%), followed by *Swartzia* (14%) and *Chamaecrista* (10%). Most of the threatened species consist of trees (49%), followed by shrubs (30%). Among phytogeographic domains, the Atlantic Forest is home to 119 (43%) threatened species, followed by the Cerrado with 78 (28%) species. If we focus on combined characteristics such as habit and phytogeographic domain, *Swartzia* stands out in first place in the Amazon and among trees species, followed by *Peltogyne*, *Inga*, and *Tachigali*. Half of the genus *Muellera* (10 spp.), predominantly composed of tree species, are considered threatened. If we consider the vegetation type, dense ombrophilous rainforest emerges in first place with 100 (36%) species, followed by campos rupestres with 54 (20%) species. Among the Brazilian states, Bahia (17%), Minas Gerais (15%), Rio de Janeiro (11%), Goiás (10%), and Amazonas (8%) stand out as the top five with the highest number of threatened species. However, it is important to note that a significant 71% of all threatened species are endemic to a single state, highlighting the crucial role of state-level engagement in developing effective policies for the protection of threatened species. Criterion B, encompassing EOO (Extent of Occurrence), AOO (Area of Occupancy), number of locations, and continuous decline, has been extensively employed, accounting for 91% of the assessments conducted. This is partly due to the substantial scarcity of population and reproductive data. However, the availability of historical land cover classification data from the MapBiomas initiative has prompted efforts to utilize this information as primary data for analyzing parameters of continuous decline and determining location counts. Now, we can leverage land evolution data to accurately quantify the magnitude of threats that confront a species. There is much more to explore when it comes to analyzing and integrating various data sources, employing data modeling techniques, and creating informative presentations. However, the true potential lies in the development of robust information systems that offer scalability, enabling us to effectively handle vast and decentralized datasets. By implementing such systems, we can automate the monitoring process of available data sets on taxon distribution and prioritize conservation actions. This enables the establishment of an objective framework for comprehensively monitoring the entire biota."
+keywords: ["Fabaceae", "IUCN", "MapBiomas", "scalability", "threatened"]
+---
+
+# Presentation
+
+- Good day, everyone! My name is Lucas, and I'm delighted to be here today to discuss the current status and future prospects of Brazilian Legumes conservation.
+
+# FFB+CNCFlora
+
+- Brazil is home to 3,068 species of Leguminosae. 51% of these species are endemic to the country, representing 7% of the worldwide Leguminosae diversity.
+
+- 33% of Brazilian Legumes species underwent conservation assessments, which carried out collaboratively with numerous specialists partnered with CNCFlora/JBRJ.
+
+- 73% were not deemed threatened. However, 277 (26%) are facing the risk of extinction.
+
+- 
+
+# Bull-CNCFlora
+
+- This is the technology stack (or tech stack) used in the development of Bull-CNCFLora, an application designed to facilitate the scaling-up of conservation assessments for species.
