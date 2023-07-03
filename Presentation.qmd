@@ -22,6 +22,8 @@ abstract: "Brazil is home to a significant proportion of Leguminosae species, co
 keywords: ["Fabaceae", "IUCN", "MapBiomas", "scalability", "threatened"]
 ---
 
+Marli[Sugestão de apresentar como perguntas...]
+
 # Presentation
 
 - Good day, everyone! My name is Lucas, and I'm delighted to be here today to discuss the current status and future prospects of Brazilian Legumes conservation.
@@ -30,12 +32,28 @@ keywords: ["Fabaceae", "IUCN", "MapBiomas", "scalability", "threatened"]
 
 - Brazil is home to 3,068 species of Leguminosae. 51% of these species are endemic to the country, representing 7% of the worldwide Leguminosae diversity.
 
-- 33% of Brazilian Legumes species underwent conservation assessments, which carried out collaboratively with numerous specialists partnered with CNCFlora/JBRJ.
+- 33% of Brazilian Legumes species underwent conservation assessments, conducted collaboratively with the valuable participation of numerous specialists who partnered with CNCFlora/JBRJ.
 
-- 73% were not deemed threatened. However, 277 (26%) are facing the risk of extinction.
 
-- 
+
+- 73% were not deemed threatened. However, 277 are facing the risk of extinction.
+
+# UCs
+
+- 105 species deemed threatened 
+
+# MapBiomas
+
+- With the help of MapBiomas data, we can leverage land evolution data to accurately quantify the magnitude of threats that confront a species.
+
+- *Luetzelburgia* 
 
 # Bull-CNCFlora
 
-- This is the technology stack (or tech stack) used in the development of Bull-CNCFLora, an application designed to facilitate the scaling-up of conservation assessments for species.
+- We emphasize the crucial importance of establishing robust information systems to automate biodiversity monitoring.
+
+- We are building an objective framework for comprehensively monitor the entire Brazilian biota.
+
+- The implementation of these systems facilitates scalability in assessments of extinction risk.
+
+- This is the technology stack (or *tech stack*) used in the development of Bull-CNCFLora, an application designed to facilitate the scaling-up of conservation assessments for Brazilian species.
