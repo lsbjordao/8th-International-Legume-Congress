@@ -22,7 +22,6 @@ abstract: "Brazil is home to a significant proportion of Leguminosae species, co
 keywords: ["Fabaceae", "IUCN", "MapBiomas", "scalability", "threatened"]
 ---
 
-Marli[Sugestão de apresentar como perguntas...]
 
 # Presentation
 
@@ -32,21 +31,64 @@ Marli[Sugestão de apresentar como perguntas...]
 
 - Brazil is home to 3,068 species of Leguminosae. 51% of these species are endemic to the country, representing 7% of the worldwide Leguminosae diversity.
 
-- 33% of Brazilian Legumes species underwent conservation assessments, conducted collaboratively with the valuable participation of numerous specialists who partnered with CNCFlora/JBRJ.
+[click and hover on 'was assessed' = 'True']
 
+- 33% of Brazilian Legumes species underwent conservation assessments, that were conducted collaboratively with the valuable participation of numerous specialists who partnered with CNCFlora/JBRJ.
 
+[focus on 'Genera']
 
-- 73% were not deemed threatened. However, 277 are facing the risk of extinction.
+- Let's take a closer look at the progress we have made in each genus within the Leguminosae family.
+
+[focus off]
+
+[click on '(was assessed)' = 'True']
+
+[hover on 'is threatened' = 'False']
+
+- 73% were not deemed threatened. 
+
+[click on 'is threatened' = 'True']
+
+- However, 277 are facing extinction risk.
+
+[click on '(is threatened)' = 'True']
+
+- Let's take a closer look only on threatened species...
+
+- *Mimosa* is the champion genus in number of species and also in threatened species.
+
+[click on '(phytogeographic domain)' = 'Mata Atlântica']
+
+- Atlantic Forest is the phytogeographic domain with more threatened species, where *Inga* is the genus with more threatened species.
+
+[click on '(phytogeographic domain)' = 'Cerrado']
+
+- In Cerrado (the Brazilian savanna), *Chamaecrista* stands out as the genus with the highest number of threatened species. Most of these species are from rupestrian grasslands.
+
+[click on '(phytogeographic domain)' = 'Amazônia']
+
+- In its turn, in Amazon, *Swartzia* stands out as the genus with the highest number of threatened species.
+
+[click on '(phytogeographic domain)' = 'Caatinga']
+
+[click on '(phytogeographic domain)' = 'Pampa']
+
+[click on '(phytogeographic domain)' = 'Pantanal']
+
 
 # UCs
 
-- 105 species deemed threatened 
+- [click on 'is in UCs' = 'False']
+
+- 105 species considered threatened are not protected in any conservation unit.
+
+- [click on UCs from Bahia (APA Costa de Itacaré, Rebio Una, APA Lagoa Encantada, Refúgio da Vida Silvestre de Una, APA Baía de Camamu)]
 
 # MapBiomas
 
 - With the help of MapBiomas data, we can leverage land evolution data to accurately quantify the magnitude of threats that confront a species.
 
-- *Luetzelburgia* 
+- *Luetzelburgia amazonica* 
 
 # Bull-CNCFlora
 
@@ -56,4 +98,18 @@ Marli[Sugestão de apresentar como perguntas...]
 
 - The implementation of these systems facilitates scalability in assessments of extinction risk.
 
-- This is the technology stack (or *tech stack*) used in the development of Bull-CNCFLora, an application designed to facilitate the scaling-up of conservation assessments for Brazilian species.
+- Here is the front-end of Bull-CNCFlora, an application designed to facilitate the scaling-up of conservation assessments for Brazilian species.
+
+- The Bull-CNCFlora utilizes a powerful queue system that manage background jobs, guaranteeing efficiency and asynchronous execution of workflows, in which we can chain processes, easy monitoring of progress and catch errors, to ensure a smooth data processing experience.
+
+- The technology stack employed in the development of this application is based on JavaScript and TypeScript languages operating within the NodeJS environment.
+
+- Under the hood, our backend infrastructure is built on the powerful and widely adopted NestJS framework.
+
+- NestJS integrates the Bull framework to implement a queue system, while bull-board creates a user-friendly interface based on the React framework.
+
+- For calculations of land cover evolution, we have successfully integrated Google Earth Engine into our NodeJS workflow using its client API. This integration enables us to leverage the advanced cloud processing capabilities of Google Earth Engine, allowing us to process the time series data obtained from all MapBiomas plataforms.
+
+# Acknowledgment
+
+- On behalf of CNCFlora, we express our deep gratitude to all taxonomists who have collaborated and continue to collaborate with CNCFlora. Your dedication and expertise are crucial to the conservation of life.
