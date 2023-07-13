@@ -23,52 +23,53 @@ keywords: ["Fabaceae", "IUCN", "MapBiomas", "scalability", "threatened"]
 ---
 
 
-# Presentation
+# Slide 1
 
-- Good day, everyone! My name is Lucas, and I'm delighted to be here today to discuss the current status and future prospects of Brazilian Legumes conservation.
+- Good day, everyone! My name is Lucas, and I'm delighted to be here today to present an overview and discuss the current status and future prospects of Brazilian Legumes conservation.
 
-# FFB+CNCFlora
+# Slide 2
 
 - Brazil is home to 3,068 species of Leguminosae. 51% of these species are endemic to the country, representing 7% of the worldwide Leguminosae diversity.
 
-[click and hover on 'was assessed' = 'True']
+# Slide 3
 
 - 33% of Brazilian Legumes species underwent conservation assessments, that were conducted collaboratively with the valuable participation of numerous specialists who partnered with CNCFlora/JBRJ.
 
-[focus on 'Genera']
+# Slide 4 - 5
 
 - Let's take a closer look at the progress we have made in each genus within the Leguminosae family.
 
-[focus off]
+- With this chart, we have a good ideia of our progress.
 
-[click on '(was assessed)' = 'True']
+# Slide 9
 
-[hover on 'is threatened' = 'False']
+- Among the assessed species, 73% were not deemed threatened.
 
-- 73% were not deemed threatened. 
-
-[click on 'is threatened' = 'True']
+# Slide 11
 
 - However, 277 are facing extinction risk.
 
-[click on '(is threatened)' = 'True']
+# Slide 12
 
-- Let's take a closer look only on threatened species...
+- Let's take a closer look only on the threatened species...
+
+# Slide 14
 
 - *Mimosa* is the champion genus in number of species and also in threatened species.
 
-[click on '(phytogeographic domain)' = 'Mata Atlântica']
+# Slide 21
 
-- Atlantic Forest is the phytogeographic domain with more threatened species, where *Inga* is the genus with more threatened species.
+- Among phytogeographic domain, Atlantic Forest is where we found more threatened species, and *Inga* is the genus with more threatened species.
 
-[click on '(phytogeographic domain)' = 'Cerrado']
+# Slide 23
 
 - In Cerrado (the Brazilian savanna), *Chamaecrista* stands out as the genus with the highest number of threatened species. Most of these species are from rupestrian grasslands.
 
-[click on '(phytogeographic domain)' = 'Amazônia']
+# Slide 25
 
 - In its turn, in Amazon, *Swartzia* stands out as the genus with the highest number of threatened species.
 
+ 
 [click on '(phytogeographic domain)' = 'Caatinga']
 
 [click on '(phytogeographic domain)' = 'Pampa']
