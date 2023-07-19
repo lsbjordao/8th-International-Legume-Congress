@@ -1,0 +1,101 @@
+---
+title: "Leguminosae: states and fates of the Brazilian flora conservation"
+author: L.S.B. Jordão
+lang: pt
+format:
+  revealjs: 
+    transition: convex
+    theme: dark
+---
+
+# Abstract 1/2
+
+::: {.r-fit-text}
+Brazil is home to a significant proportion of Leguminosae species, comprising 13.5% of the global total. Furthermore, 51% of these species are endemic to the country, representing 7% of the worldwide Leguminosae diversity. Of the 3,068 species in Brazil, 1,024 (33%) underwent conservation assessments, carried out collaboratively with numerous specialists partnered with CNCFlora/JBRJ. Among the assessed species, 73% were not deemed threatened, including 56% classified as Least Concern (LC), 12% as Data Deficient (DD), and 5% as Near Threatened (NT). However, 277 (26%) are facing the risk of extinction, with 154 (5%) categorized as Endangered (EN), 81 (2.6%) as Vulnerable (VU), and 42 (1.3%) as Critically Endangered (CR). Most of threatened species belong to the genus *Mimosa* (23%), followed by *Swartzia* (14%) and *Chamaecrista* (10%). Most of the threatened species consist of trees (49%), followed by shrubs (30%). Among phytogeographic domains, the Atlantic Forest is home to 119 (43%) threatened species, followed by the Cerrado with 78 (28%) species. If we focus on combined characteristics such as habit and phytogeographic domain, *Swartzia* stands out in first place in the Amazon and among trees species, followed by *Peltogyne*, *Inga*, and *Tachigali*. Half of the genus *Muellera* (10 spp.), predominantly composed of tree species, are considered threatened. If we consider the vegetation type, dense ombrophilous rainforest emerges in first place with 100 (36%) species, followed by campos rupestres with 54 (20%) species. Among the Brazilian states, Bahia (17%), Minas Gerais (15%), Rio de Janeiro (11%), Goiás (10%), and Amazonas (8%) stand out as the top five with the highest number of threatened species. 
+:::
+
+# Abstract 2/2
+
+::: {.r-fit-text}
+However, it is important to note that a significant 71% of all threatened species are endemic to a single state, highlighting the crucial role of state-level engagement in developing effective policies for the protection of threatened species. Criterion B, encompassing EOO (Extent of Occurrence), AOO (Area of Occupancy), number of locations, and continuous decline, has been extensively employed, accounting for 91% of the assessments conducted. This is partly due to the substantial scarcity of population and reproductive data. However, the availability of historical land cover classification data from the MapBiomas initiative has prompted efforts to utilize this information as primary data for analyzing parameters of continuous decline and determining location counts. Now, we can leverage land evolution data to accurately quantify the magnitude of threats that confront a species. There is much more to explore when it comes to analyzing and integrating various data sources, employing data modeling techniques, and creating informative presentations. However, the true potential lies in the development of robust information systems that offer scalability, enabling us to effectively handle vast and decentralized datasets. By implementing such systems, we can automate the monitoring process of available data sets on taxon distribution and prioritize conservation actions. This enables the establishment of an objective framework for comprehensively monitoring the entire biota.
+:::
+
+Fabaceae, IUCN, MapBiomas, scalability, threatened
+
+# 1
+
+Good day, everyone! My name is Lucas, and I'm delighted to be here today to discuss the current status and future prospects of Brazilian Legumes conservation.
+
+# 2
+
+Brazil is home to 3,068 species of Leguminosae. 51% of these species are endemic to the country, representing 7% of the worldwide Leguminosae diversity.
+
+# 3
+
+33% of Brazilian Legumes species underwent conservation assessments, that were conducted collaboratively with the valuable participation of numerous specialists who partnered with CNCFlora/JBRJ.
+
+# 4
+
+Let's take a closer look at the progress we have made in each genus within the Leguminosae family.
+
+# 5
+
+73% were not deemed threatened. 
+
+# 6
+
+However, 277 are facing extinction risk.
+
+# 7
+
+Let's take a closer look only on threatened species...
+
+*Mimosa* is the champion genus in number of species and also in threatened species.
+
+# 8
+
+Atlantic Forest is the phytogeographic domain with more threatened species, where *Inga* is the genus with more threatened species.
+
+# 9
+
+In Cerrado (the Brazilian savanna), *Chamaecrista* stands out as the genus with the highest number of threatened species. Most of these species are from rupestrian grasslands.
+
+# 10
+
+In its turn, in Amazon, *Swartzia* stands out as the genus with the highest number of threatened species.
+
+# 11
+
+105 species considered threatened are not protected in any conservation unit.
+
+# 12
+
+With the help of MapBiomas data, we can leverage land evolution data to accurately quantify the magnitude of threats that confront a species.
+
+*Luetzelburgia amazonica* 
+
+# 13
+
+We emphasize the crucial importance of establishing robust information systems to automate biodiversity monitoring.
+
+We are building an objective framework for comprehensively monitor the entire Brazilian biota.
+
+The implementation of these systems facilitates scalability in assessments of extinction risk.
+
+Here is the front-end of Bull-CNCFlora, an application designed to facilitate the scaling-up of conservation assessments for Brazilian species.
+
+The Bull-CNCFlora utilizes a powerful queue system that manage background jobs, guaranteeing efficiency and asynchronous execution of workflows, in which we can chain processes, easy monitoring of progress and catch errors, to ensure a smooth data processing experience.
+
+The technology stack employed in the development of this application is based on JavaScript and TypeScript languages operating within the NodeJS environment.
+
+Under the hood, our backend infrastructure is built on the powerful and widely adopted NestJS framework.
+
+NestJS integrates the Bull framework to implement a queue system, while bull-board creates a user-friendly interface based on the React framework.
+
+For calculations of land cover evolution, we have successfully integrated Google Earth Engine into our NodeJS workflow using its client API. This integration enables us to leverage the advanced cloud processing capabilities of Google Earth Engine, allowing us to process the time series data obtained from all MapBiomas plataforms.
+
+# Acknowledgment
+
+I would like to express my sincere gratitude to the GEF Terrestrial project for its generous sponsorship, which has made our participation in this congress possible.
+
+On behalf of CNCFlora, we express our deep gratitude to all taxonomists who have collaborated and continue to collaborate with CNCFlora. Your dedication and expertise are crucial to the conservation of life.
