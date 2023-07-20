@@ -8,51 +8,69 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.1.2/dist/theme/night.css" id="theme">
 </head>
 
+<style>
+  .scrollable-slide {
+    height: 800px;
+    overflow-y: auto !important;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #333;
+  }
+
+  ::-webkit-scrollbar-corner {
+    background-color: #333;
+  }
+</style>
+
 <body>
   <div class="reveal">
     <div class="slides">
       <section>
         <section>
           <h3>Leguminosae: states and fates of the Brazilian flora conservation</h3>
-          <p >Lucas S.B. Jordão</p>
+          <p>Lucas S.B. Jordão</p>
         </section>
         <section>
-          <p style="font-size: large;">
+          <p>
             Brazil is home to a significant proportion of Leguminosae species, comprising 13.5% of the global total.
             Furthermore, 51% of these species are endemic to the country, representing 7% of the worldwide Leguminosae
             diversity. Of the 3,068 species in Brazil, 1,024 (33%) underwent conservation assessments, carried out
             collaboratively with numerous specialists partnered with CNCFlora/JBRJ. Among the assessed species, 73% were
             not deemed threatened, including 56% classified as Least Concern (LC), 12% as Data Deficient (DD), and 5% as
             Near Threatened (NT). However, 277 (26%) are facing the risk of extinction, with 154 (5%) categorized as
-            Endangered (EN), 81 (2.6%) as Vulnerable (VU), and 42 (1.3%) as Critically Endangered (CR). Most of threatened
-            species belong to the genus *Mimosa* (23%), followed by *Swartzia* (14%) and *Chamaecrista* (10%). Most of the
-            threatened species consist of trees (49%), followed by shrubs (30%). Among phytogeographic domains, the
-            Atlantic Forest is home to 119 (43%) threatened species, followed by the Cerrado with 78 (28%) species. If we
-            focus on combined characteristics such as habit and phytogeographic domain, *Swartzia* stands out in first
+            Endangered (EN), 81 (2.6%) as Vulnerable (VU), and 42 (1.3%) as Critically Endangered (CR). Most of
+            threatened species belong to the genus *Mimosa* (23%), followed by *Swartzia* (14%) and *Chamaecrista* (10%). Most of
+            the threatened species consist of trees (49%), followed by shrubs (30%). Among phytogeographic domains, the
+            Atlantic Forest is home to 119 (43%) threatened species, followed by the Cerrado with 78 (28%) species. If
+            we focus on combined characteristics such as habit and phytogeographic domain, *Swartzia* stands out in first
             place in the Amazon and among trees species, followed by *Peltogyne*, *Inga*, and *Tachigali*. Half of the
-            genus *Muellera* (10 spp.), predominantly composed of tree species, are considered threatened. If we consider
-            the vegetation type, dense ombrophilous rainforest emerges in first place with 100 (36%) species, followed by
-            campos rupestres with 54 (20%) species. Among the Brazilian states, Bahia (17%), Minas Gerais (15%), Rio de
-            Janeiro (11%), Goiás (10%), and Amazonas (8%) stand out as the top five with the highest number of threatened
-            species.
-          </p>
-        </section>
-        <section>
-          <p style="font-size: large;">
-            However, it is important to note that a significant 71% of all threatened species are endemic to a single
-          state, highlighting the crucial role of state-level engagement in developing effective policies for the
-          protection of threatened species. Criterion B, encompassing EOO (Extent of Occurrence), AOO (Area of
-          Occupancy), number of locations, and continuous decline, has been extensively employed, accounting for 91% of
-          the assessments conducted. This is partly due to the substantial scarcity of population and reproductive data.
-          However, the availability of historical land cover classification data from the MapBiomas initiative has
-          prompted efforts to utilize this information as primary data for analyzing parameters of continuous decline
-          and determining location counts. Now, we can leverage land evolution data to accurately quantify the magnitude
-          of threats that confront a species. There is much more to explore when it comes to analyzing and integrating
-          various data sources, employing data modeling techniques, and creating informative presentations. However, the
-          true potential lies in the development of robust information systems that offer scalability, enabling us to
-          effectively handle vast and decentralized datasets. By implementing such systems, we can automate the
-          monitoring process of available data sets on taxon distribution and prioritize conservation actions. This
-          enables the establishment of an objective framework for comprehensively monitoring the entire biota.
+            genus *Muellera* (10 spp.), predominantly composed of tree species, are considered threatened. If we
+            consider the vegetation type, dense ombrophilous rainforest emerges in first place with 100 (36%) species, followed
+            by campos rupestres with 54 (20%) species. Among the Brazilian states, Bahia (17%), Minas Gerais (15%), Rio de
+            Janeiro (11%), Goiás (10%), and Amazonas (8%) stand out as the top five with the highest number of
+            threatened species. However, it is important to note that a significant 71% of all threatened species are endemic to a
+            single state, highlighting the crucial role of state-level engagement in developing effective policies for the
+            protection of threatened species. Criterion B, encompassing EOO (Extent of Occurrence), AOO (Area of
+            Occupancy), number of locations, and continuous decline, has been extensively employed, accounting for 91%
+            of the assessments conducted. This is partly due to the substantial scarcity of population and reproductive
+            data. However, the availability of historical land cover classification data from the MapBiomas initiative has
+            prompted efforts to utilize this information as primary data for analyzing parameters of continuous decline
+            and determining location counts. Now, we can leverage land evolution data to accurately quantify the
+            magnitude of threats that confront a species. There is much more to explore when it comes to analyzing and integrating
+            various data sources, employing data modeling techniques, and creating informative presentations. However,
+            the true potential lies in the development of robust information systems that offer scalability, enabling us to
+            effectively handle vast and decentralized datasets. By implementing such systems, we can automate the
+            monitoring process of available data sets on taxon distribution and prioritize conservation actions. This
+            enables the establishment of an objective framework for comprehensively monitoring the entire biota.
           </p>
         </section>
       </section>
@@ -74,63 +92,77 @@
       <section>
         <h1>4</h1>
         <p>Let's take a closer look at the progress we have made in each genus within the Leguminosae family.</p>
-    </section>
-    <section>
+      </section>
+      <section>
         <h1>5</h1>
         <p>73% were not deemed threatened.</p>
-    </section>
-    <section>
+      </section>
+      <section>
         <h1>6</h1>
         <p>However, 277 are facing extinction risk.</p>
-    </section>
-    <section>
+      </section>
+      <section>
         <h1>7</h1>
         <p>*Mimosa* is the champion genus in number of species and also in threatened species.</p>
-    </section>
-    <section>
+      </section>
+      <section>
         <h1>8</h1>
-        <p>Atlantic Forest is the phytogeographic domain with more threatened species, where *Inga* is the genus with more threatened species.</p>
-    </section>
-    <section>
+        <p>Atlantic Forest is the phytogeographic domain with more threatened species, where *Inga* is the genus with
+          more threatened species.</p>
+      </section>
+      <section>
         <h1>9</h1>
-        <p>In Cerrado (the Brazilian savanna), *Chamaecrista* stands out as the genus with the highest number of threatened species. Most of these species are from rupestrian grasslands.</p>
-    </section>
-    <section>
+        <p>In Cerrado (the Brazilian savanna), *Chamaecrista* stands out as the genus with the highest number of
+          threatened species. Most of these species are from rupestrian grasslands.</p>
+      </section>
+      <section>
         <h1>10</h1>
         <p>In its turn, in Amazon, *Swartzia* stands out as the genus with the highest number of threatened species.</p>
-    </section>
-    <section>
+      </section>
+      <section>
         <h1>11</h1>
         <p>105 species considered threatened are not protected in any conservation unit.</p>
-    </section>
-    <section>
+      </section>
+      <section>
         <h1>12</h1>
-        <p>With the help of MapBiomas data, we can leverage land evolution data to accurately quantify the magnitude of threats that confront a species.</p>
+        <p>With the help of MapBiomas data, we can leverage land evolution data to accurately quantify the magnitude of
+          threats that confront a species.</p>
         <p>*Luetzelburgia amazonica* </p>
-    </section>
-    <section>
+      </section>
+      <section>
         <h1>13</h1>
-        <p>We emphasize the crucial importance of establishing robust information systems to automate biodiversity monitoring.</p>
+        <p>We emphasize the crucial importance of establishing robust information systems to automate biodiversity
+          monitoring.</p>
         <p>We are building an objective framework for comprehensively monitor the entire Brazilian biota.</p>
         <p>The implementation of these systems facilitates scalability in assessments of extinction risk.</p>
-        <p>The technology stack employed in the development of this application is based on JavaScript and TypeScript languages operating within the NodeJS environment.</p>
+        <p>The technology stack employed in the development of this application is based on JavaScript and TypeScript
+          languages operating within the NodeJS environment.</p>
         <p>Under the hood, our backend infrastructure is built on the powerful and widely adopted NestJS framework.</p>
-        <p>NestJS integrates the Bull framework to implement a queue system, while bull-board creates a user-friendly interface based on the React framework.</p>
-    </section>
-    <section>
+        <p>NestJS integrates the Bull framework to implement a queue system, while bull-board creates a user-friendly
+          interface based on the React framework.</p>
+      </section>
+      <section>
         <h1>14</h1>
-        <p>Here is the front-end of Bull-CNCFlora, an application designed to facilitate the scaling-up of conservation assessments for Brazilian species.</p>
-        <p>The Bull-CNCFlora utilizes a powerful queue system that manage background jobs, guaranteeing efficiency and asynchronous execution of workflows, in which we can chain processes, easy monitoring of progress and catch errors, to ensure a smooth data processing experience.</p>
-    </section>
-    <section>
-      <h1>15</h1>
-      <p>For calculations of land cover evolution, we have successfully integrated Google Earth Engine into our NodeJS workflow using its client API. This integration enables us to leverage the advanced cloud processing capabilities of Google Earth Engine, allowing us to process the time series data obtained from all MapBiomas plataforms.</p>
-  </section>
-    <section>
+        <p>Here is the front-end of Bull-CNCFlora, an application designed to facilitate the scaling-up of conservation
+          assessments for Brazilian species.</p>
+        <p>The Bull-CNCFlora utilizes a powerful queue system that manage background jobs, guaranteeing efficiency and
+          asynchronous execution of workflows, in which we can chain processes, easy monitoring of progress and catch
+          errors, to ensure a smooth data processing experience.</p>
+      </section>
+      <section>
+        <h1>15</h1>
+        <p>For calculations of land cover evolution, we have successfully integrated Google Earth Engine into our NodeJS
+          workflow using its client API. This integration enables us to leverage the advanced cloud processing
+          capabilities of Google Earth Engine, allowing us to process the time series data obtained from all MapBiomas
+          plataforms.</p>
+      </section>
+      <section>
         <h1>End</h1>
-        <p>I would like to express my sincere gratitude to the GEF Terrestrial project for its generous sponsorship, which has made our participation in this congress possible.</p>
-        <p>On behalf of CNCFlora, we express our deep gratitude to all taxonomists who have collaborated and continue to collaborate with CNCFlora. Your dedication and expertise are crucial to the conservation of life.</p>
-    </section>
+        <p>I would like to express my sincere gratitude to the GEF Terrestrial project for its generous sponsorship,
+          which has made our participation in this congress possible.</p>
+        <p>On behalf of CNCFlora, we express our deep gratitude to all taxonomists who have collaborated and continue to
+          collaborate with CNCFlora. Your dedication and expertise are crucial to the conservation of life.</p>
+      </section>
     </div>
   </div>
 
@@ -153,6 +185,29 @@
       margin: 0.1,
       minScale: 0.2,
       maxScale: 1.5
+    });
+  </script>
+
+  <script>
+    function resetSlideScrolling(slide) {
+      slide.classList.remove('scrollable-slide');
+    }
+
+    function handleSlideScrolling(slide) {
+      if (slide.scrollHeight >= 800) {
+        slide.classList.add('scrollable-slide');
+      }
+    }
+
+    Reveal.addEventListener('ready', function (event) {
+      handleSlideScrolling(event.currentSlide);
+    });
+
+    Reveal.addEventListener('slidechanged', function (event) {
+      if (event.previousSlide) {
+        resetSlideScrolling(event.previousSlide);
+      }
+      handleSlideScrolling(event.currentSlide);
     });
   </script>
 </body>
